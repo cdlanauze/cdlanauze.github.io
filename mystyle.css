@@ -1,0 +1,21 @@
+body {
+    background:
+       url(sweettexture.jpg)    /* image */
+       top center / 200px 200px /* position / size */
+       no-repeat                /* repeat */
+       fixed                    /* attachment */
+       padding-box              /* origin */
+       content-box              /* clip */
+       navy;                     /* color */
+  }
+
+  h1 {
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  button {
+      background-color: rosybrown;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color:white;
+} 
