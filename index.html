@@ -19,9 +19,15 @@
 <div class="content">
 
 
-<button class="button-18" id="generate" role="button">Generate Schedule</button> 
+<button class="button-18" id="generate" role="button" onclick="exec('python hackathon_1.py');">Generate Schedule</button> 
+
+
 
 <table>
+  <caption>
+    <label for="semester">Semester :</label>
+    <input type="text" id="semester" name="fname"><br><br>
+  </caption>
     <tr>
       <th>Class Code</th>
       <th>To Do This Week</th>

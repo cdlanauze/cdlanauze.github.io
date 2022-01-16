@@ -107,3 +107,13 @@ tr{
 input[type=checkbox] {
   transform: scale(1.5);
 }
+
+input[type=text] {
+  font: normal 18px/1.6 system-ui, sans-serif;
+  padding: 0.2em 0.5em;
+}
+
+label {
+  font: normal 18px/1.6 system-ui, sans-serif;
+  padding: 0.2em 0.5em;
+}
