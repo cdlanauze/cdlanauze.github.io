@@ -108,12 +108,22 @@ input[type=checkbox] {
   transform: scale(1.5);
 }
 
-input[type=text] {
+#semester {
+  font: normal 18px/1.6 system-ui, sans-serif;
+  padding: 0.2em 0.5em;
+}
+
+#labelid {
   font: normal 18px/1.6 system-ui, sans-serif;
   padding: 0.2em 0.5em;
 }
 
 label {
-  font: normal 18px/1.6 system-ui, sans-serif;
+  font: sans-serif;
   padding: 0.2em 0.5em;
+  color:navy;
+}
+
+#generate {
+  margin-top: 30px;
 }
