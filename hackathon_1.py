@@ -174,6 +174,15 @@ def to_do():
         
         write_value('w1','value')
         sleep(1)
+    
+    chrome_options = Options()
+    chrome_options.page_load_strategy = "none"
+    chrome_options.add_argument("window-size=1920,1080")
+    chrome_options.add_argument("ignore-certificate-errors")
+    chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    chrome_options.add_experimental_option('useAutomationExtension', False)
+    chrome_options.headless = True
+    
     driver = webdriver.Chrome(const_hack.DRIVER_PATH,options=chrome_options)
     wait = WebDriverWait(driver,30)
     Studium_log_in()
