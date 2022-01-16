@@ -2,66 +2,86 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="mystyle.css">
 </head>
 <body>
 
-<h1>UdeM Schedule Organizer</h1>
+<div class="header">
+  <h1>UdeM Schedule Organizer</h1>
+</div> 
+
+<div class="content">
+
 
 <button class="button-18" role="button">Generate Schedule</button> 
 
 <table>
     <tr>
-      <th>Sigle du cours</th>
+      <th>Class Code</th>
       <th>To Do This Week</th>
     </tr>
     <tr>
       <td>
-        <input type="text" name="c1" value="">
+        <span class="textarea" id="c1" role="textbox" contenteditable></span>
       </td>
       <td>
-          <input type="text" name="w1" value="">
-          <input type="checkbox" id="checkbox1" name="checkbox1" value="checkbox">
+          <span class="textarea" id="w1" role="textbox" contenteditable></span>
         </td>
+        <td>
+          <input type="checkbox" id="checkbox1" name="checkbox1" value="checkbox" style="text-align: left;">
+        </td>  
     </tr>
     <tr>
-      <td><input type="text" name="c2" value=""></td>
+      <td><span class="textarea" id="c2" role="textbox" contenteditable></span></td>
       <td>
-          <input type="text" name="w2" value="">
-          <input type="checkbox" id="checkbox2" name="checkbox2" value="checkbox">
+        <span class="textarea" id="w2" role="textbox" contenteditable></span>
         </td>
+        <td>
+          <input type="checkbox" id="checkbox2" name="checkbox2" value="checkbox" style="text-align: left;">
+        </td>  
     </tr>
     <tr>
-      <td><input type="text" name="c3" value=""></td>
+      <td><span class="textarea" id="c3" role="textbox" contenteditable></span></td>
       <td>
-          <input type="text" name="w3" value="">
-          <input type="checkbox" id="checkbox3" name="checkbox3" value="checkbox">
+        <span class="textarea" id="w3" role="textbox" contenteditable></span>
         </td>
+        <td>
+          <input type="checkbox" id="checkbox3" name="checkbox3" value="checkbox" style="text-align: left;">
+        </td>  
     </tr>
     <tr>
-      <td><input type="text" name="c4" value=""></td>
+      <td><span class="textarea" id="c4" role="textbox" contenteditable></span></td>
       <td>
-          <input type="text" name="w4" value="">
-          <input type="checkbox" id="checkbox4" name="checkbox4" value="checkbox">
+        <span class="textarea" id="w4" role="textbox" contenteditable></span>
         </td>
+        <td>
+          <input type="checkbox" id="checkbox4" name="checkbox4" value="checkbox" style="text-align: left;">
+        </td>  
     </tr>
     <tr>
-      <td><input type="text" name="c5" value=""></td>
+      <td><span class="textarea" id="c5" role="textbox" contenteditable></span></td>
    
       <td>
-          <input type="text" name="w5" value="">
-          <input type="checkbox" id="checkbox5" name="checkbox5" value="checkbox">
+        <span class="textarea" id="w5" role="textbox" contenteditable></span>
         </td>
+        <td>
+          <input type="checkbox" id="checkbox5" name="checkbox5" value="checkbox" style="text-align: left;">
+        </td>  
     </tr>
     <tr>
-      <td><input type="text" name="c6" value=""></td>
+      <td><span class="textarea" id="c6" role="textbox" contenteditable></span></td>
     
       <td>
-          <input type="text" name="w6" value="">
-          <input type="checkbox" id="checkbox6" name="checkbox6" value="checkbox">
+        <span class="textarea" id="w6" role="textbox" contenteditable></span>
         </td>
+        <td>
+          <input type="checkbox" id="checkbox6" name="checkbox6" value="checkbox" style="text-align: left;">
+        </td>  
     </tr>
   </table> 
 
+</div>
 </body>
 </html>
